@@ -153,7 +153,7 @@ class TestController extends Controller
         $timeout = 60;
         $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         $contract = new Contract($web3->provider, $abi);
-        $contractAddress='0xf64c95194c4d6e7b9a5eb6e3e46a8c4f5bfb66b6';
+        $contractAddress='0x8fff0FfF228424b5907877a4f75E42296933a0AD';
         $fromAccount = '0xb24bae98610c454e4e2e3e8711d22af3a3155db0';
         $password = 'vd!LiedNJ9DkGRpA';
         $a = $this->unlockAccount($fromAccount, $password);
@@ -173,7 +173,7 @@ class TestController extends Controller
         $timeout = 60;
         $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         $contract = new Contract($web3->provider, $abi);
-        $contractAddress='0xf64c95194c4d6e7b9a5eb6e3e46a8c4f5bfb66b6';
+        $contractAddress='0x8fff0FfF228424b5907877a4f75E42296933a0AD';
         $fromAccount = '0xb24bae98610c454e4e2e3e8711d22af3a3155db0';
         $password = 'vd!LiedNJ9DkGRpA';
         $a = $this->unlockAccount($fromAccount, $password);
