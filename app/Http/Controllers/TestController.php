@@ -22,15 +22,15 @@ class TestController extends Controller
         //请求钱包的过期时间（秒）
         $timeout = 60;
         //连接钱包
-        $web3 = new Web3(new HttpProvider(new HttpRequestManager('http://141.193.156.178:2406', $timeout)));
+        $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         //合同
         $contract = new Contract($web3->provider, $abi);
         //用哪个账号发布
-        $fromAccount = '0xaba10bfe13e4e3bac8babacd4a2a082152fe1313';
+        $fromAccount = '0x9b8ddadf75b2831b30356bc1a5010fe77765b83d';
         //账号的密码
-        $password = '!@superpassword';
+        $password = 'vd!LiedNJ9DkGRpA';
         //发给哪个账号
-        $toAccount = '0xaba10bfe13e4e3bac8babacd4a2a082152fe1313';
+        $toAccount = '0x3138E4972c9ACd112E5514286B76A58442981f0B';
         //解锁
         $a = $this->unlockAccount($fromAccount, $password);
         dd($a);
@@ -67,10 +67,10 @@ class TestController extends Controller
         //获取erc721的Bytecode
         $Bytecode = config('erc.Erc721Bytecode');
         $timeout = 60;
-        $web3 = new Web3(new HttpProvider(new HttpRequestManager('http://141.193.156.178:2406', $timeout)));
+        $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         $contract = new Contract($web3->provider, $abi);
-        $fromAccount = '0xaba10bfe13e4e3bac8babacd4a2a082152fe1313';
-        $password = '!@superpassword';
+        $fromAccount = '0xb24bae98610c454e4e2e3e8711d22af3a3155db0';
+        $password = 'vd!LiedNJ9DkGRpA';
         //$toAccount = '0xaba10bfe13e4e3bac8babacd4a2a082152fe1313';
         $a = $this->unlockAccount($fromAccount, $password);
         if (!$a) {
@@ -97,7 +97,7 @@ class TestController extends Controller
     public function unlockAccount($fromAccount, $password)
     {
         $timeout = 60;
-        $web3 = new Web3(new HttpProvider(new HttpRequestManager('http://141.193.156.178:2406', $timeout)));
+        $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         $personal = $web3->personal;
         $personal->batch(true);
         //解锁账户
@@ -121,7 +121,7 @@ class TestController extends Controller
     public function lockAccount($fromAccount)
     {
         $timeout = 60;
-        $web3 = new Web3(new HttpProvider(new HttpRequestManager('http://141.193.156.178:2406', $timeout)));
+        $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         $personal = $web3->personal;
         $personal->batch(true);
         $personal->lockAccount($fromAccount);
@@ -139,7 +139,7 @@ class TestController extends Controller
     public function owner(){
         $abi = config('erc.Erc721Abi');
         $timeout = 60;
-        $web3 = new Web3(new HttpProvider(new HttpRequestManager('http://141.193.156.178:2406', $timeout)));
+        $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         $contract = new Contract($web3->provider, $abi);
         $contractAddress='0x49cbbff45201f887579d0ed5a24917a0a8371d27';
         //调用call('方法','参数','回调')查询
@@ -151,7 +151,7 @@ class TestController extends Controller
     public function mint(){
         $abi = config('erc.Erc721Abi');
         $timeout = 60;
-        $web3 = new Web3(new HttpProvider(new HttpRequestManager('http://141.193.156.178:2406', $timeout)));
+        $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
         $contract = new Contract($web3->provider, $abi);
         $contractAddress='0x49cbbff45201f887579d0ed5a24917a0a8371d27';
         $fromAccount = '0xaba10bfe13e4e3bac8babacd4a2a082152fe1313';
