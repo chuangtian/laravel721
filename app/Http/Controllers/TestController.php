@@ -8,6 +8,7 @@ use Web3\Contract;
 use Web3\Providers\HttpProvider;
 use Web3\RequestManagers\HttpRequestManager;
 use Illuminate\Support\Facades\Redis;
+use App\Jsonrpc\Eth;
 
 class TestController extends Controller
 {
@@ -165,6 +166,13 @@ class TestController extends Controller
         ], function ($err, $result){
             dd($err,$result);
         });
+    }
+
+    //创建账号
+    public function getaddress(){
+        $gethrpc=new Eth(config('app.eth'));//测试网络
+        $result=$gethrpc->personal_newAccount('vd!LiedNJ9DkGRpA');
+        dd($result);
     }
 
 }
