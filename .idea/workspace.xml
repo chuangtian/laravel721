@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83a772f8-39a9-4644-a0e4-e8e4706d7391" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/ganache/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/ganache/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/Dockerfile-71" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/Dockerfile-71" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/Dockerfile-72" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/Dockerfile-72" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/Dockerfile-73" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/Dockerfile-73" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/composer-setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/composer-setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/php.ini-development" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/php.ini-development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/php.ini-production" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/docker/php/php.ini-production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/accounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/accounts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/contractExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/contractExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/exampleBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/exampleBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/personal.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/personal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/sendTransaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/examples/sendTransaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/scripts/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/scripts/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contract.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Ethabi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Ethabi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/SolidityType.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/SolidityType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Boolean.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Boolean.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Bytes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Bytes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/DynamicBytes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/DynamicBytes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/IType.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/IType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Integer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Integer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Str.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Uinteger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Contracts/Types/Uinteger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Eth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Eth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/AddressFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/AddressFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/BigNumberFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/BigNumberFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/BooleanFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/BooleanFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/HexFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/HexFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/IFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/IFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/IntegerFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/IntegerFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/NumberFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/NumberFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/OptionalQuantityFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/OptionalQuantityFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/PostFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/PostFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/QuantityFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/QuantityFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/StringFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/StringFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/TransactionFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Formatters/TransactionFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Accounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Accounts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/BlockNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/BlockNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Call.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Call.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Coinbase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Coinbase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/CompileLLL.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/CompileLLL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/CompileSerpent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/CompileSerpent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/CompileSolidity.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/CompileSolidity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/EstimateGas.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/EstimateGas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GasPrice.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GasPrice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBalance.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBalance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockByHash.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockByHash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockByNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockByNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockTransactionCountByHash.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockTransactionCountByHash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockTransactionCountByNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetBlockTransactionCountByNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetFilterChanges.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetFilterChanges.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetFilterLogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetFilterLogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetLogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetLogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetStorageAt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetStorageAt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionByBlockHashAndIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionByBlockHashAndIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionByBlockNumberAndIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionByBlockNumberAndIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionByHash.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionByHash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionCount.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionCount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionReceipt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetTransactionReceipt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleByBlockHashAndIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleByBlockHashAndIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleByBlockNumberAndIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleByBlockNumberAndIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleCountByBlockHash.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleCountByBlockHash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleCountByBlockNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetUncleCountByBlockNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetWork.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/GetWork.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Hashrate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Hashrate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Mining.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Mining.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/NewBlockFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/NewBlockFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/NewFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/NewFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/NewPendingTransactionFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/NewPendingTransactionFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/ProtocolVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/ProtocolVersion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SendRawTransaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SendRawTransaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SendTransaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SendTransaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Sign.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Sign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SubmitHashrate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SubmitHashrate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SubmitWork.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/SubmitWork.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Syncing.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/Syncing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/UninstallFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Eth/UninstallFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/EthMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/EthMethod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/IMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/IMethod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/IRPC.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/IRPC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/JSONRPC.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/JSONRPC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Net/Listening.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Net/Listening.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Net/PeerCount.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Net/PeerCount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Net/Version.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Net/Version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/ListAccounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/ListAccounts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/LockAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/LockAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/NewAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/NewAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/SendTransaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/SendTransaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/UnlockAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Personal/UnlockAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/AddToGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/AddToGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/GetFilterChanges.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/GetFilterChanges.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/GetMessages.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/GetMessages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/HasIdentity.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/HasIdentity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/NewFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/NewFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/NewGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/NewGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/NewIdentity.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/NewIdentity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/UninstallFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/UninstallFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/Version.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Shh/Version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Web3/ClientVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Web3/ClientVersion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Web3/Sha3.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Methods/Web3/Sha3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Net.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Net.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Personal.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Personal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Providers/HttpProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Providers/HttpProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Providers/IProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Providers/IProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Providers/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Providers/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/RequestManagers/HttpRequestManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/RequestManagers/HttpRequestManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/RequestManagers/IRequestManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/RequestManagers/IRequestManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/RequestManagers/RequestManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/RequestManagers/RequestManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Shh.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Shh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/AddressValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/AddressValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/BlockHashValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/BlockHashValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/BooleanValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/BooleanValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/CallValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/CallValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/FilterValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/FilterValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/HexValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/HexValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/IValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/IValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/IdentityValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/IdentityValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/NonceValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/NonceValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/PostValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/PostValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/QuantityValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/QuantityValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/ShhFilterValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/ShhFilterValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/StringValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/StringValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/TagValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/TagValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/TransactionValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Validators/TransactionValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Web3.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/src/Web3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/contracts/issue125.sol" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/contracts/issue125.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/contracts/issue134.sol" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/contracts/issue134.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/AddressFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/AddressFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/AddressTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/AddressTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/AddressValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/AddressValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BigNumberFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BigNumberFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BlockHashValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BlockHashValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BooleanFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BooleanFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BooleanTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BooleanTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BooleanValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BooleanValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BytesTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/BytesTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/CallValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/CallValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ContractTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ContractTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/DynamicBytesTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/DynamicBytesTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthApiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthBatchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthBatchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthabiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/EthabiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/FilterValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/FilterValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/HexFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/HexFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/HexValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/HexValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/HttpProviderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/HttpProviderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/IdentityValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/IdentityValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/IntegerFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/IntegerFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/IntegerTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/IntegerTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/JSONRPCTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/JSONRPCTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NetApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NetApiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NetBatchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NetBatchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NetTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NetTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NonceValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NonceValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NumberFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/NumberFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/OptionalQuantityFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/OptionalQuantityFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PersonalApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PersonalApiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PersonalBatchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PersonalBatchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PersonalTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PersonalTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PostFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PostFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PostValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/PostValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ProviderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ProviderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/QuantityFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/QuantityFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/QuantityValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/QuantityValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/RequestManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/RequestManagerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhApiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhBatchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhBatchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhFilterValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhFilterValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/ShhTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/SolidityTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/SolidityTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/StrTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/StrTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/StringFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/StringFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/StringValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/StringValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/TagValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/TagValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/TransactionFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/TransactionFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/TransactionValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/TransactionValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/UintegerTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/UintegerTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/UtilsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/UtilsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/Web3ApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/Web3ApiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/Web3BatchTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/Web3BatchTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/Web3Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/test/unit/Web3Test.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1419047597">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/kornrunner/keccak" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/sc0vu/web3.php" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laravel721" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel721" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel721" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel721" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel721" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel721" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel721" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel721" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel721" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel721" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel721" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel721" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83a772f8-39a9-4644-a0e4-e8e4706d7391" name="默认更改列表" comment="" />
+      <created>1615182296868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615182296868</updated>
+      <workItem from="1615182298153" duration="409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="409000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="16" y="41" width="1400" height="804" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
