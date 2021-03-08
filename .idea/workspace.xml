@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83a772f8-39a9-4644-a0e4-e8e4706d7391" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/erc.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/erc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/sc0vu/web3.php/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sc0vu/web3.php/LICENSE" afterDir="false" />
@@ -217,33 +218,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="6" />
+          <entry key="php" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="6" />
+          <entry key="PHP" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="91" />
+          <entry key="php" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="91" />
+          <entry key="PHP" value="110" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="163" column="100" selection-start-line="163" selection-start-column="100" selection-end-line="163" selection-end-column="100" />
+            <state relative-caret-position="614">
+              <caret line="183" column="52" selection-start-line="183" selection-start-column="52" selection-end-line="183" selection-end-column="52" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -260,11 +261,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/erc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="452" column="35" lean-forward="true" selection-start-line="452" selection-start-column="35" selection-end-line="452" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="495">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -285,8 +295,8 @@
       <list>
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/config/erc.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/config/erc.php" />
       </list>
     </option>
   </component>
@@ -468,12 +478,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615182296868</updated>
-      <workItem from="1615182298153" duration="5348000" />
+      <workItem from="1615182298153" duration="5980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5348000" />
+    <option name="totallyTimeSpent" value="5980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="25" width="1400" height="804" extended-state="0" />
@@ -481,7 +491,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -518,10 +528,20 @@
     <entry file="file://$PROJECT_DIR$/config/filesystems.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="183" column="52" selection-start-line="183" selection-start-column="52" selection-end-line="183" selection-end-column="52" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="495">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -534,18 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/erc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="452" column="18" lean-forward="true" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="163" column="100" selection-start-line="163" selection-start-column="100" selection-end-line="163" selection-end-column="100" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="314">
+          <caret line="452" column="35" lean-forward="true" selection-start-line="452" selection-start-column="35" selection-end-line="452" selection-end-column="35" />
         </state>
       </provider>
     </entry>

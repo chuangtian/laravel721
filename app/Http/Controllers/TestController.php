@@ -167,6 +167,26 @@ class TestController extends Controller
             dd($err,$result);
         });
     }
+    //删除id
+    public function burn(){
+        $abi = config('erc.Erc721Abi');
+        $timeout = 60;
+        $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
+        $contract = new Contract($web3->provider, $abi);
+        $contractAddress='0xf64c95194c4d6e7b9a5eb6e3e46a8c4f5bfb66b6';
+        $fromAccount = '0xb24bae98610c454e4e2e3e8711d22af3a3155db0';
+        $password = 'vd!LiedNJ9DkGRpA';
+        $a = $this->unlockAccount($fromAccount, $password);
+        if (!$a) {
+            return '解锁失败';
+        }
+        //调用send('方法','参数','回调')锻造一个币
+        $contract->at($contractAddress)->send('burn',1,[
+            'from' => $fromAccount,
+        ], function ($err, $result){
+            dd($err,$result);
+        });
+    }
 
     //创建账号
     public function getaddress(){
