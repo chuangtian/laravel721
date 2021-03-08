@@ -148,7 +148,8 @@ class TestController extends Controller
         });
     }
     //调用方法send 锻造一个ID
-    public function mint(){
+    public function mint(Request $request){
+        $tokenid=$request->tokenid;
         $abi = config('erc.Erc721Abi');
         $timeout = 60;
         $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
@@ -161,14 +162,15 @@ class TestController extends Controller
             return '解锁失败';
         }
         //调用send('方法','参数','回调')锻造一个币
-        $contract->at($contractAddress)->send('mint', '0x3138E4972c9ACd112E5514286B76A58442981f0B',1,'1111111',[
+        $contract->at($contractAddress)->send('mint', '0x3138E4972c9ACd112E5514286B76A58442981f0B',$tokenid,'1111111',[
             'from' => $fromAccount,
         ], function ($err, $result){
             dd($err,$result);
         });
     }
     //删除id
-    public function burn(){
+    public function burn(Request $request){
+        $tokenid=$request->tokenid;
         $abi = config('erc.Erc721Abi');
         $timeout = 60;
         $web3 = new Web3(new HttpProvider(new HttpRequestManager(config('app.eth'), $timeout)));
@@ -181,7 +183,7 @@ class TestController extends Controller
             return '解锁失败';
         }
         //调用send('方法','参数','回调')锻造一个币
-        $contract->at($contractAddress)->send('burn',1,[
+        $contract->at($contractAddress)->send('burn',$tokenid,[
             'from' => $fromAccount,
         ], function ($err, $result){
             dd($err,$result);

@@ -33,6 +33,10 @@ Route::get('owner', 'TestController@owner');
  */
 Route::get('mint', 'TestController@mint');
 /*
+ * 创建一个erc721 ID
+ */
+Route::get('burn', 'TestController@burn');
+/*
  * 获取地址
  */
 Route::get('getaddress', 'TestController@getaddress');
